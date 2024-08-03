@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: darkgrey
+}
+header .container{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+header ul li{
+    list-style-type: none;
+    margin: 10px;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+span {
+    margin-left: 500px;
+    
+   
+   
+    
+}
+
+
+@media(max-width:767px){
+    header nav{
+        display: none;
+        width: 100%;
+        margin: 40px;
+    }
+   span{
+    margin: 30px;
+   }
+}
+
+.calc{
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 20px;
+    margin:80px;
+    background-image:url(images/top-view-desk-concept-with-notepad_23-2148604955.jpg) ;
+    background-size: cover;
+    background-position: center;
+
+    
+
+}
+.calc input{
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+}
+.calc button{
+    margin: 10px 0;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+}
+
